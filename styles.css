@@ -19,5 +19,31 @@ nav h3 {
 }
 
 #blog-list {
-    padding: 30px 10px 10px;
+    padding: 10px;
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: peachpuff;
+    border-style: none;
+    border-bottom: 2px double magenta;
+}
+
+#post-title {
+    padding: 5px;
+    border-style: none;
+}
+
+#post-body {
+    padding: 50px;
+    border-style: none;    
 }
